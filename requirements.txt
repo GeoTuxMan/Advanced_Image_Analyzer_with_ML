@@ -1,0 +1,8 @@
+numpy
+matplotlib
+scikit-image
+opencv-python
+pytesseract
+scikit-learn
+pillow
+tk
