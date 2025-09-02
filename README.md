@@ -35,24 +35,32 @@ Apply filters and extract text with a single click
 
 Tech Stack:
 
-Python 3.8+
+-Python 3.8+
 
-Image Processing: scikit-image, OpenCV, Pillow
+-Image Processing: scikit-image, OpenCV, Pillow
 
-OCR: pytesseract
+-OCR: pytesseract
 
-Machine Learning: scikit-learn
+-Machine Learning: scikit-learn
 
-GUI: Tkinter
+-GUI: Tkinter
 
-Numerical & Visualization: numpy, matplotlib
+-Numerical & Visualization: numpy, matplotlib
 
 Usage:
 1) download images: python download_images.py
 2) training: python training.py
 3) test prediction: predict.py
 4) python main.py
+   
    Click "Upload Image" and select an image.
+   
    Select a filter from the dropdown and click "Apply Filter" to see the effect.
+   
    Click "Extract Text" to read text or numbers from the image.
+   
    Click "Classify Image" to predict the class (e.g., Cat/Dog) using ML model.
+
+![unu](extract_text.png)
+
+![doi](ml_class.png)
